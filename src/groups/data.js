@@ -75,7 +75,7 @@ function modifyGroup(group, fields) {
 		setCoverUrls(group);
 	}
 }
-
+console.log('retaj : refactored code executed');
 function setDefaultValues(group) {
 	group.userTitleEnabled = ([null, undefined].includes(group.userTitleEnabled)) ? 1 : group.userTitleEnabled;
 	group.private = ([null, undefined].includes(group.private)) ? 1 : group.private;
